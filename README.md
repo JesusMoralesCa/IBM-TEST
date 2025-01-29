@@ -58,7 +58,7 @@ Asegúrate de reemplazar user y user con las credenciales de tu base de datos My
 
 2. Situate en la raiz del proyecto y construyelo:
     
-    ./mvnw clean install
+    ./mvnw clean install -DskipTests
 
 3. Ejecuta la aplicación:
 
