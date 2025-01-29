@@ -43,10 +43,10 @@ Importa el script.sql el cual está en la carpeta situada en la raiz del proyect
 
 En el archivo src/main/resources/application.properties, configura la conexión a tu base de datos MySQL:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/proveedores_db
-spring.datasource.username=user
-spring.datasource.password=user
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/proveedores_db    
+spring.datasource.username=user    
+spring.datasource.password=user    
+spring.jpa.hibernate.ddl-auto=update    
 
 Asegúrate de reemplazar user y user con las credenciales de tu base de datos MySQL.
 
