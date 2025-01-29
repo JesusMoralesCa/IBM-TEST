@@ -31,3 +31,59 @@ Este proyecto implementa una API REST en Spring Boot para consultar los proveedo
     Asegúrate de que la opción "Enable annotation processing" esté activada:
     Ve a File -> Settings -> Build, Execution, Deployment -> Compiler -> Annotation Processors.
     Marca la opción Enable annotation processing.
+
+
+## Base de datos
+
+Asegúrate de tener MySQL instalado y en funcionamiento.
+Crea una base de datos llamada proveedores_db.
+Importa el script.sql el cual está en la carpeta situada en la raiz del proyecto "script.sql"
+
+## Configuración de la base de datos en application.properties
+
+En el archivo src/main/resources/application.properties, configura la conexión a tu base de datos MySQL:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/proveedores_db
+spring.datasource.username=user
+spring.datasource.password=user
+spring.jpa.hibernate.ddl-auto=update
+
+Asegúrate de reemplazar user y user con las credenciales de tu base de datos MySQL.
+
+## Ejecución del Proyecto
+
+1. Clona el repositorio:
+
+    git clone https://github.com/JesusMoralesCa/IBM-TEST.git
+
+2. Situate en la raiz del proyecto y construyelo:
+    
+    ./mvnw clean install
+
+3. Ejecuta la aplicación:
+
+    ./mvnw spring-boot:run
+
+La API estará disponible en http://localhost:8080.
+
+
+**Si prefieres ejecutarlo con el IDE ve a src\main\java\com\jesusmorales\PruebaIBM y abre PruebaIbmApplication.java. Dale al boton de "Play" y se ejecutará.**
+
+
+
+
+## Pruebas Unitarias
+
+Este proyecto incluye pruebas unitarias utilizando JUnit 5 para asegurar el correcto funcionamiento de los métodos. Puedes ejecutarlas con Maven:
+
+    ./mvnw test
+
+**Si prefieres ejecutarlo con el IDE ve a src\test\java\com\jesusmorales\PruebaIBM\ProveedorTest y abre ProveedorServiceTest.java. Dale al boton de "Play" y se ejecutaran las pruebas.**
+
+
+
+
+
+
+
+
