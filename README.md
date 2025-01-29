@@ -18,8 +18,8 @@ Este proyecto implementa una API REST en Spring Boot para consultar los proveedo
 5. **Spring Boot Starter Test** Para las pruebas unitarias utilizando JUnit 5.
 
 
-##Configuración
-##Instalación de Lombok en IntelliJ IDEA
+## Configuración
+## Instalación de Lombok en IntelliJ IDEA
 1. Instalar el plugin Lombok en IntelliJ IDEA:
 
     Ve a File -> Settings -> Plugins.
