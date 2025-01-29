@@ -60,7 +60,7 @@ Asegúrate de reemplazar user y user con las credenciales de tu base de datos My
     
     ./mvnw clean install -DskipTests
 
-3. Ejecuta la aplicación:
+3. Ejecuta la aplicación: (Asegurate de haber configurado bien la base de datos y que esta funcionando)
 
     ./mvnw spring-boot:run
 
