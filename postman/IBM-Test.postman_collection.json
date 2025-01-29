@@ -121,6 +121,25 @@
 					"idCliente": 8
 				}
 			]
+		},
+		{
+			"name": "GetProveedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/proveedores/34",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proveedores",
+						"34"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
