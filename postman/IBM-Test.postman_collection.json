@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "fa7189de-d708-4ab2-9cbc-60a68b56f0af",
+		"name": "IBM-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31829263"
+	},
+	"item": [
+		{
+			"name": "GetProveedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/proveedores/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proveedores",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"id_proveedor": 1,
+					"nombre": "Coca-cola",
+					"fechaDeAlta": "11/01/2042",
+					"idCliente": 5
+				},
+				{
+					"id_proveedor": 2,
+					"nombre": "Pepsi",
+					"fechaDeAlta": "12/01/2024",
+					"idCliente": 5
+				}
+			]
+		},
+		{
+			"name": "GetProveedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/proveedores/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proveedores",
+						"6"
+					]
+				}
+			},
+			"response": [
+				{
+					"id_proveedor": 3,
+					"nombre": "Redbull",
+					"fechaDeAlta": "21/01/2024",
+					"idCliente": 6
+				},
+				{
+					"id_proveedor": 6,
+					"nombre": "Trina",
+					"fechaDeAlta": "23/01/2024",
+					"idCliente": 6
+				}
+			]
+		},
+		{
+			"name": "GetProveedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/proveedores/7",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proveedores",
+						"7"
+					]
+				}
+			},
+			"response": [
+				{
+					"id_proveedor": 4,
+					"nombre": "Fanta",
+					"fechaDeAlta": "12/01/2024",
+					"idCliente": 7
+				}
+			]
+		},
+		{
+			"name": "GetProveedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/proveedores/8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proveedores",
+						"8"
+					]
+				}
+			},
+			"response": [
+				{
+					"id_proveedor": 5,
+					"nombre": "Casera",
+					"fechaDeAlta": "25/01/2024",
+					"idCliente": 8
+				}
+			]
+		}
+	]
+}
